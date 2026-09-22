@@ -74,7 +74,7 @@ export default function ConnexionPage() {
               <p className="mt-3 text-sm text-[#aaa]">Accédez à votre espace supporter championnat (Supabase Auth).</p>
               <p className="mt-1 text-xs text-[#666]">
                 Vous organisez le tournoi ?{" "}
-                <Link href="/admin" className="underline underline-offset-4 hover:text-white">
+                <Link href="/admin" prefetch={false} className="underline underline-offset-4 hover:text-white">
                   Espace organisateur →
                 </Link>
               </p>
