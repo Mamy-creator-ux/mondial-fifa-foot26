@@ -8,8 +8,8 @@
 // -----------------------------------------------------------------------------
 import { createClient } from "@supabase/supabase-js"
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ""
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ""
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://qeepewjluwgdwzswvyql.supabase.co"
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "sb_publishable_mJSzmjgwa749tRgPItPEmA_UdhJ0oUN"
 
 if (typeof window !== "undefined" && (!supabaseUrl || !supabaseAnonKey)) {
   // Avertissement uniquement — n'empêche pas le reste du site de fonctionner.
